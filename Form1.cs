@@ -166,7 +166,7 @@ namespace WindowsFormsApplication1
             queueString.Add(s);
            
 
-            process = getAdjList(s); // we have the sun list,like 1-->5 2
+            process = getAdjList(s); // we have the adjacent nodes list,like 1-->5 2
             for (int i = 0; i < process.Count; i++)
             {
                  queueString.Add(process.ElementAt(i)); 
