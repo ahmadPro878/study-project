@@ -172,15 +172,7 @@ namespace WindowsFormsApplication1
                  queueString.Add(process.ElementAt(i)); 
             }
 
-            /*-------- for tracker and display---------*/
-            richTextBox2.Text += ("process={");
-            for (int i = 0; i < process.Count; i++)
-            {
-                richTextBox2.Text += (process.ElementAt(i) + "\t");
-            }
-            richTextBox2.Text += ("}\n");
-
-            /*----------------------------------------*/
+         
             final.Add(queueString.ElementAt(0));
             queueString.Remove(queueString.ElementAt(0));
          
