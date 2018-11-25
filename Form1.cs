@@ -205,32 +205,6 @@ namespace WindowsFormsApplication1
                 queueString.Add(process.ElementAt(i));
             }
 
-         
-           
-
-
-            
-
-
-
-
-			// queueString.Add(process.ElementAt(0)); // we have 5 on queue ,bring her kinds 1 5
-            // queueString.Add(s);
-             
-           
-
-             visited[1]=   process.Remove(process.ElementAt(0)); /* remove 5 from the process
-                                                               * and mark this node as visited*/
-
-			
-            
-
-
-
-
-           
-            
-
         }
 
 
